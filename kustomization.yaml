@@ -11,4 +11,4 @@ resources:
 images:
 - name: 253490772403.dkr.ecr.ap-northeast-2.amazonaws.com/drplan-ecr-seoul-repo
   newName: 253490772403.dkr.ecr.ap-northeast-2.amazonaws.com/drplan-ecr-seoul-repo
-  newTag: 11b9040f-1746094199
+  newTag: 684758bb-1746632507
