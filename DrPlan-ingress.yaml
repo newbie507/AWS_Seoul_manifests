@@ -11,7 +11,7 @@ metadata:
     alb.ingress.kubernetes.io/group.name: eks-seoul-group
     alb.ingress.kubernetes.io/group.order: '1'
     alb.ingress.kubernetes.io/healthcheck-path: /index.jsp
-    kubernetes.io/ingress.class: "alb"
+    alb.ingress.kubernetes.io/healthcheck-port: "80"
 spec:
   ingressClassName: alb
   rules:
